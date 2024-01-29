@@ -1,0 +1,58 @@
+#borderimg{
+	height:2100px;
+	background:white;
+	width:50%px;
+border:70px solid transparent;
+/* background-image: url(animato/patern.jpg); */
+padding:15px;
+//border-image-slice:20%;
+//border-image-width:20px;
+//border-image-outset:5px;
+overflow: hidden;
+}
+.tea{
+	height:750px;
+	width:750px;
+	margin-top: 250px;
+	margin-left: 250px;
+}
+.fire{
+	height:350px;
+	width:50px;
+	border-radius: 50%;
+	background: grey;
+	margin-top:-850px;
+	margin-left:430px;
+  position: absolute;
+animation:up 5s linear infinite;
+}
+@keyframes up{
+	0%{transform:translateY(0px);filter:blur(0);opacity:0; }
+	50%{transform:translateY(0px);filter:blur(40px); }
+	100%{transform:translateY(-500px);filter:blur(50px) }
+}
+.fire:nth-child(2){
+	height:350px;
+	width:50px;
+	border-radius: 50%;
+	background:grey;
+	margin-left:500px;
+	position: absolute;
+}
+.fire:nth-child(3){
+	height:350px;
+	width:50px;
+	border-radius: 50%;
+	background:grey;
+	margin-left:620px;
+	position: absolute;
+	}
+.fire:nth-child(4){
+	height:350px;
+	width:50px;
+	border-radius: 50%;
+	background:grey;
+	margin-left:670px;
+	position: absolute;
+	
+}

@@ -1,0 +1,134 @@
+body{
+	margin:0;
+	padding:0;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	height:100vh;
+	overflow: hidden;
+	background:radial-gradient(circle,yellow,blue);
+}
+#wing{
+    height: 240px;
+    width: 200px;
+    border: 18px solid white;
+    border-radius: 50%;
+    position: relative;
+    animation: ci 10s linear infinite;
+    box-shadow:0 0 10px yellow,
+	0 0 20px yellow,
+	0 0 30px yellow;
+}
+#wing1{
+	height:220px;
+	width:180px;
+	border:18px solid transparent;
+	border-radius:50%;
+	position:relative;
+	animation: ci1 10s linear infinite;
+	left:-268px;	
+}
+#wing li{
+	position:absolute;
+	list-style:none;
+}
+#wing1 li{
+	position:absolute;
+	list-style:none;
+}
+.numbers{
+	height:70%;
+	width:70%;
+	position:absolute;
+	margin-left:-3px;
+	top:35px;
+	background:transparent;
+	border:2px solid cyan;
+	box-shadow: 0 0 2px cyan;
+
+}
+.numbers span{
+	display: block;
+	height:15px;
+	width:15px;
+     background:white;
+     border-radius: 50%; 
+     box-shadow: 0 0 10px cyan,
+     0 0 20px cyan,
+     0 0 30px cyan;
+}
+.numbers:nth-child(1){
+	transform:rotate(30deg);
+}
+.numbers:nth-child(1) span{
+	transform:rotate(-30deg);
+}
+.numbers:nth-child(2){
+	transform:rotate(60deg);
+}
+.numbers:nth-child(2) span{
+	transform:rotate(-60deg);
+}
+.numbers:nth-child(3){
+	transform:rotate(90deg);
+}
+.numbers:nth-child(3) span{
+	transform:rotate(-90deg);
+}
+.numbers:nth-child(4){
+	transform:rotate(120deg);
+}
+.numbers:nth-child(4) span{
+	transform:rotate(-120deg);
+}
+.numbers:nth-child(5){
+	transform:rotate(150deg);
+}
+.numbers:nth-child(5) span{
+	transform:rotate(-150deg);
+}
+.numbers:nth-child(6) {
+	transform:rotate(180deg);
+}
+.numbers:nth-child(6) span{
+	transform:rotate(-180deg);
+}
+.numbers:nth-child(7){
+	transform:rotate(210deg);
+}
+.numbers:nth-child(7) span{
+	transform:rotate(-210deg);
+}
+.numbers:nth-child(8) {
+	transform:rotate(240deg);
+}
+.numbers:nth-child(8) span{
+	transform:rotate(-240deg);
+}
+.numbers:nth-child(9) {
+	transform:rotate(270deg);
+}
+.numbers:nth-child(9) span{
+	transform:rotate(-270deg);
+}
+.numbers:nth-child(10) {
+	transform:rotate(300deg);
+}
+.numbers:nth-child(10) span{
+	transform:rotate(-300deg);
+}
+.numbers:nth-child(11) {
+	transform:rotate(330deg);
+}
+.numbers:nth-child(11) span{
+	transform:rotate(-330deg);
+}
+.numbers:nth-child(12) {
+	transform:rotate(360deg);
+}
+.numbers:nth-child(12) span{
+	transform:rotate(-360deg);
+}
+@keyframes ci{
+	to{transform: rotate(360deg);}
+}

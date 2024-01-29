@@ -1,0 +1,65 @@
+.d1{
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 50px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.d2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.d3{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    border-radius: 50px;
+    -webkit-transition: width 2s, height 2s ;
+    transition: width 2s, height 2s;
+}
+
+
+.d5 {
+    background: #3b5998;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-size: 40px;
+    -webkit-transition: transform 2s ease-in;
+    transition: transform 2s;
+}
+.d1{
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+.d2{
+    -webkit-transform-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+.d3{
+    -webkit-transition-timing-function: ease-int;
+    transition-timing-function: ease-in;
+    }
+.d4{
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+	-webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+.d1:hover ,.d2:hover ,.d3:hover, .d4:hover {
+    width: 180px;
+    height: 180px;
+    background:blue;
+}
+.d5:hover{
+-webkit-transform: rotate(360deg);  
+    transform: rotate(360deg);
+}

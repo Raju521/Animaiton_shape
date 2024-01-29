@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+#wing {
+    height: 240px;
+    width: 200px;
+    border: 18px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    animation: ci 10s linear 1;
+    box-shadow: 0 0px 10px white,
+        0 0 40px white,
+        0 0 80px white;
+}
+
+#wing1 {
+    height: 220px;
+    width: 180px;
+    border: 18px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    animation: ci1 10s linear 1;
+    left: -268px;
+}
+
+#wing li {
+    position: absolute;
+    list-style: none;
+}
+
+#wing1 li {
+    position: absolute;
+    list-style: none;
+}
+
+.numbers {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    margin-left: -3px;
+    top: 35px;
+}
+.numbers span{
+	display: block;
+	height:23px;
+	width:23px;
+     background:white;
+     box-shadow: 0 0 30px blue;
+     border-radius: 50%; 
+    
+}
+.numbers:nth-child(1){
+	transform:rotate(30deg);
+	animation:first 2s linear infinite;
+	opacity:0;
+}
+.numbers:nth-child(1) span{
+	transform:rotate(-30deg);
+}
+.numbers:nth-child(2){
+	transform:rotate(60deg);
+	animation:second 2s linear infinite;
+	animation-delay:0.2s;
+	opacity:0;
+}
+.numbers:nth-child(2) span{
+	transform:rotate(-60deg);
+}
+.numbers:nth-child(3){
+	transform:rotate(90deg);
+	animation:third 2s linear infinite;
+	animation-delay:0.4s;
+	opacity:0;
+}
+.numbers:nth-child(3) span{
+	transform:rotate(-90deg);
+	animation:thirt 3s linear infinite;
+	animation-delay:0.6s;
+	opacity:0;
+
+}
+.numbers:nth-child(4){
+	transform:rotate(120deg);
+	animation:fourth 3s linear infinite;
+	animation-delay:0.8s;
+	opacity:0;
+}
+.numbers:nth-child(4) span{
+	transform:rotate(-120deg);
+	animation:fourt 2s linear infinite;
+	animation-delay:0.10s;
+	opacity:0;
+}
+.numbers:nth-child(5){
+	transform:rotate(150deg);
+	animation:five 2s linear infinite;
+	animation-delay:0.12s;
+	opacity:0;
+}
+.numbers:nth-child(5) span{
+	transform:rotate(-150deg);
+}
+.numbers:nth-child(6) {
+	transform:rotate(180deg);
+	animation:six 2s linear infinite;
+	animation-delay:0.14s;
+	opacity:0;
+}
+.numbers:nth-child(6) span{
+	transform:rotate(-180deg);
+}
+.numbers:nth-child(7){
+	transform:rotate(210deg);
+	animation:seven 2s linear infinite;
+	animation-delay:0.16s;
+	opacity:0;
+}
+.numbers:nth-child(7) span{
+	transform:rotate(-210deg);
+}
+.numbers:nth-child(8) {
+	transform:rotate(240deg);
+	animation:eight 2s linear infinite;
+	animation-delay:0.18s;
+	opacity:0;
+}
+.numbers:nth-child(8) span{
+	transform:rotate(-240deg);
+}
+.numbers:nth-child(9) {
+	transform:rotate(270deg);
+	animation:nine 2s linear infinite;
+	animation-delay:0.20s;
+	opacity:0;
+}
+.numbers:nth-child(9) span{
+	transform:rotate(-270deg);
+	
+}
+.numbers:nth-child(10) {
+	transform:rotate(300deg);
+	animation:ten 2s linear infinite;
+	animation-delay:0.22s;
+	opacity:0;
+}
+.numbers:nth-child(10) span{
+	transform:rotate(-300deg);
+}
+.numbers:nth-child(11) {
+	transform:rotate(330deg);
+	animation:eleven 2s linear infinite;
+	animation-delay:0.24s;
+	opacity:0;
+}
+.numbers:nth-child(11) span{
+	transform:rotate(-330deg);
+	animation:twelve 2s linear infinite;
+	animation-delay:0.26s;
+	opacity:0;
+}
+.numbers:nth-child(12) span{
+	transform:rotate(-330deg);
+	animation:fifth 2s linear infinite;
+	animation-delay:0.28s;
+	opacity:0;
+}
+@keyframes first{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes second{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes third{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+
+@keyframes fourth{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes five{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes six{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes seven{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes eight{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes nine{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes ten{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes eleven{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes thirt{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes fourt{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes twelve{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+@keyframes fifth{
+	0%{opacity:1; }
+	100%{opacity:0; }
+}
+.wel{
+	font-family: monotype corsiva;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top:100px;
+	margin-left: -1px;
+	text-shadow: 3px 1px 3px cyan;
+
+}

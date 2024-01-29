@@ -1,0 +1,183 @@
+main {
+    padding: 0;
+    margin: 0;
+    background: lightcyan;
+}
+
+.chimney {
+    position: absolute;
+    width: 1080px;
+    //background:red;
+    top: 0px;
+    left: 40px;
+}
+
+.chimney ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.chimney ul li {
+    float: left;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+
+.box img {
+    width: 230px;
+    height: 380px;
+    margin-left: -70px;
+}
+
+.box1 img {
+    width: 200px;
+    height: 380px;
+
+}
+
+.box2 img {
+    width: 200px;
+    height: 380px;
+
+}
+
+.box3 img {
+    width: 230px;
+    height: 380px;
+
+}
+.box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /background: red;
+    top: -120px;
+    left: 175px;
+    color: white;
+
+    -webkit-animation-name: boxmove;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: boxmove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.box1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    //background: red;
+    top: -120px;
+    left: 120px;
+    font-family: calibri;
+    font-size: 13px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+
+    -webkit-animation-name: boxmove1;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: boxmove1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /background:red;
+    top: -120px;
+    left: 120px;
+    font-family: calibri;
+    font-size: 13px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+
+    -webkit-animation-name: boxmove2;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: boxmove2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /background:red;
+    top: -120px;
+    left: 120px;
+    font-family: calibri;
+    font-size: 13px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+
+    -webkit-animation-name: boxmove3;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: boxmove3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+    @keyframes boxmove{
+        0%   {left: 175px;top:-80px;-webkit-transform: rotate(0deg);}
+        40%   {left: 175px;top:0px;-webkit-transform: rotate(-45deg);}
+        50%   {right:175px;top:0px;-webkit-transform: rotate(45deg);}
+        60%   {left: 175px;top:0px;-webkit-transform: rotate(-45deg);}
+        70%   {right:175px;top:0px;-webkit-transform: rotate(45deg);}
+        80%   {left: 175px;top: 0px;-webkit-transform: rotate(-45deg);}
+        90%   {right:175px;top:0px;-webkit-transform: rotate(45deg);}
+        100%  {left: 175px;top: 0px;-webkit-transform: rotate(-45deg);}
+        }
+        @keyframes boxmove1{
+            0%   {left: 425px;top: -80px;-webkit-transform: rotate(0deg);}
+            40%   {left: 425px;top:0px;-webkit-transform: rotate(0deg);}
+            50%   {right:425px;top: 0px;-webkit-transform: rotate(45deg);}
+            60%   {left: 425px;top: 0px;-webkit-transform: rotate(-45deg);}
+            70%   {right:425px;top: 0px;-webkit-transform: rotate(45deg);}
+            80%   {left: 425px;top: 0px;-webkit-transform: rotate(-45deg);}
+            90%  {right: 425px;top: 0px;-webkit-transform: rotate(45deg);}
+            100%  {left: 425px;top: 0px;-webkit-transform: rotate(-45deg);}
+            }
+            @keyframes boxmove2{
+                0%   {left: 595px;top:-80px;-webkit-transform: rotate(0deg);}
+                40%   {left: 595px;top: 0px;-webkit-transform: rotate(-45deg);}
+                50%   {right: 595px;top: 0px;-webkit-transform: rotate(45deg);}
+                60%   {left: 595px;top: 0px;-webkit-transform: rotate(-45deg);}
+                70%   {right:595px;top:0px;-webkit-transform: rotate(45deg);}
+                80%   {left: 595px;top: 0px;-webkit-transform: rotate(-45deg);}
+                90%  {right:595px;top:0px;-webkit-transform: rotate(45deg);}
+                100%  {left:595px;top:0px;-webkit-transform: rotate(-45deg);}
+                }
+                @keyframes boxmove3{
+                    0%   {left:860px;top: -80px;-webkit-transform: rotate(0deg);}
+                    40% {left:850px;top: 0px;-webkit-transform: rotate(45deg);}
+                    50% {right:850px;top: 0px;-webkit-transform: rotate(-45deg);}
+                    60% {left:850px;top: 0px;-webkit-transform: rotate(45deg);}
+                    70% {right:850px;top: 0px;-webkit-transform: rotate(45deg);}
+                    80%   {left:850px;top: 0px;-webkit-transform: rotate(-45deg);}
+                    90%   {right:850px;top: 0px;-webkit-transform: rotate(45deg);}
+                    100%{left:850px;top: 0px;-webkit-transform: rotate(-45deg);}
+                    }	

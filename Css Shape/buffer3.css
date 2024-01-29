@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    background: radial-gradient(circle, blue, black);
+}
+
+#wing {
+    height: 240px;
+    width: 200px;
+    border: 18px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    animation: ci 10s linear infinite;
+    box-shadow: 0 0 10px black,
+        0 0 20px black,
+        0 0 30px black;
+    animation: point 5s linear infinite;
+}
+
+#wing li {
+    position: absolute;
+    list-style: none;
+}
+
+.numbers {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    margin-left: -3px;
+    top: 35px;
+}
+
+.numbers span {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50%;
+    animation: point 5s linear infinite;
+}
+
+@keyframes point {
+    0% {
+        opacity: 0;
+        transform: rotate(0);
+    }
+
+    25% {
+        opacity: 1;
+        transform: rotate(30deg);
+    }
+
+    50% {
+        opacity: 0;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        opacity: 1;
+        transform: rotate(10deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(2 0deg);
+    }
+}
+
+.numbers:nth-child(1) {
+    transform: rotate(30deg);
+}
+
+.numbers:nth-child(1) span {
+    transform: rotate(-30deg);
+}
+
+.numbers:nth-child(2) {
+    transform: rotate(60deg);
+}
+
+.numbers:nth-child(2) span {
+    transform: rotate(-60deg);
+}
+
+.numbers:nth-child(3) {
+    transform: rotate(90deg);
+}
+
+.numbers:nth-child(3) span {
+        transform:rotate(-90deg);
+}
+.numbers:nth-child(4) {
+    transform: rotate(120deg);
+}
+
+.numbers:nth-child(4) span {
+        transform:rotate(-120deg);
+}
+.numbers:nth-child(5) {
+    transform: rotate(150deg);
+}
+
+.numbers:nth-child(5) span {
+        transform:rotate(-150deg);
+}
+.numbers:nth-child(6) {
+    transform: rotate(180deg);
+}
+
+.numbers:nth-child(6) span {
+        transform:rotate(-180deg);
+}
+.numbers:nth-child(7) {
+    transform: rotate(210deg);
+}
+
+.numbers:nth-child(7) span {
+        transform:rotate(-210deg);
+}
+.numbers:nth-child(8) {
+    transform: rotate(240deg);
+}
+
+.numbers:nth-child(8) span {
+        transform:rotate(-240deg);
+}
+.numbers:nth-child(9) {
+    transform: rotate(270deg);
+}
+
+.numbers:nth-child(9) span {
+        transform:rotate(-270deg);
+}
+.numbers:nth-child(10) {
+    transform: rotate(300deg);
+}
+
+.numbers:nth-child(10) span {
+        transform:rotate(-300deg);
+}
+.numbers:nth-child(11) {
+    transform: rotate(330deg);
+}
+
+.numbers:nth-child(11) span {
+        transform:rotate(-330deg);
+}
+
